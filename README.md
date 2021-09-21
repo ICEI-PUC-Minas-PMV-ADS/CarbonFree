@@ -1,23 +1,23 @@
-# TÍTULO DO PROJETO
+# CarbonFree
 
-`CURSO`
+`Análise e Desenvolvimento de Sistemas`
 
-`DISCIPLINA`
+`Projeto: Desenvolvimento de uma aplicação interativa`
 
-`SEMESTRE`
+`2021/2`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+`Uma aplicação que calculará qual a quantidade de dióxido de carbono emitida por um indivíduo, baseando-se nas suas atividades diárias`
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Ingrid Caroline Santos de Oliveira
+* Jean Stefan dos Santos Lima
+* Leonardo Barbosa Ferreira
+* Sabrina Pereira da Silva
 
 ## Orientador
 
-* Nome completo do professor 1
+* Carlos Alberto Marques Pietrobon
 
 ## Instruções de utilização
 
