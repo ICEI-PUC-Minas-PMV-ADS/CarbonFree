@@ -4,9 +4,9 @@
 
 `Projeto: Desenvolvimento de uma aplicação interativa`
 
-`2021/2`
+`Semestre: 2021/2`
 
-`Uma aplicação que calculará qual a quantidade de dióxido de carbono emitida por um indivíduo, baseando-se nas suas atividades diárias`
+`Uma aplicação que calculará qual a quantidade de dióxido de carbono emitida por um indivíduo, baseando-se nas suas atividades diárias.`
 
 ## Integrantes
 
