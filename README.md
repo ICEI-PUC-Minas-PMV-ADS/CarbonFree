@@ -13,6 +13,7 @@
 * Ingrid Caroline Santos de Oliveira
 * Jean Stefan dos Santos Lima
 * Leonardo Barbosa Ferreira
+* Rodrigo Pereira Lacerda
 * Sabrina Pereira da Silva
 
 ## Orientador
