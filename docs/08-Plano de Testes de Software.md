@@ -1,19 +1,273 @@
 # Plano de Testes de Software
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>
+<table>
+    <thead>
+        <tr> 
+            <th>Caso do Teste</th>
+            <th>CT-01 - Exibir questionário inicial</th>
+        </tr>
+    </thead>
+       <tbody>
+        <tr> 
+            <td>Requisitos Associados</td>
+            <td>
+                RF-01 - O site deve apresentar um questionário sobre o estilo de vida do usuário, incluindo perguntas sobre hábitos de alimentação, transporte, consumo energético, renda, entre outros.
+                RF-04 - O site deve permitir que o usuário refaça o questionário sobre estilo de vida sempre que achar necessário.
+            </td>
+        </tr>
+        <tr> 
+            <td>Objetivos do Teste</td>
+            <td>
+                Verificar se o questionário é apresentado e recebe informações necessárias para cálculo.
+            </td>
+        </tr>
+        <tr> 
+            <td>Passos</td>
+            <td>
+                1. Acessar o navegador</br>
+                2. Informar o endereço do site</br>
+                3. Criar uma conta</br>
+                4. Realizar o login</br>
+                5. Selecionar a opção: Responder questionário.</br>
+            </td>
+        </tr>
+        <tr> 
+            <td>Critérios de Êxito</td>
+            <td>
+                As perguntas do questionário devem ser exibidas no site, após clicar na opção.</br>
+                Os campos específicos devem estar habilitados para receber as respostas dos usuários.
+            </td>
+        </tr>
+    </tbody>
+</table>
 
-Apresente os cenários de testes utilizados na realização dos testes da sua aplicação. Escolha cenários de testes que demonstrem os requisitos sendo satisfeitos.
+<table>
+    <thead>
+        <tr> 
+            <th>Caso do Teste</th>
+            <th>CT-02 - Exibir checklist de ações diárias recomendadas</th>
+        </tr>
+    </thead>
+       <tbody>
+        <tr> 
+            <td>Requisitos Associados</td>
+            <td>
+                RF-02 - O site deve apresentar na página inicial uma checklist
+                personalizada de ações diárias para redução da pegada de
+                carbono do usuário, baseada no questionário inicial.
+            </td>
+        </tr>
+        <tr> 
+            <td>Objetivos do Teste</td>
+            <td>
+                Verificar se estão sendo sugeridas atividades para redução da emissão de carbono do usúario.
+            </td>
+        </tr>
+        <tr> 
+            <td>Passos</td>
+            <td>
+                1. Acessar o navegador</br>
+                2. Informar o endereço do site</br>
+                3. Fazer login
+            </td>
+        </tr>
+        <tr> 
+            <td>Critérios de Êxito</td>
+            <td>
+                Após realizar o login, o usuário é redirecionado para página principal, que deve conter as atividades sugeridas.</br>
+                O usuário deve conseguir marcar a atividade como concluída após realizá-la.
+            </td>
+        </tr>
+    </tbody>
+</table>
 
-Enumere quais cenários de testes foram selecionados para teste. Neste tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo de usuários que foi escolhido para participar do teste e as ferramentas utilizadas.
- 
-## Ferramentas de Testes (Opcional)
+<table>
+    <thead>
+        <tr> 
+            <th>Caso do Teste</th>
+            <th>CT-03 - Visualizar as respostas de um questionário anterior</th>
+        </tr>
+    </thead>
+       <tbody>
+        <tr> 
+            <td>Requisitos Associados</td>
+            <td>
+                RF-03 - O site deve permitir que o usuário visualize seus dados inseridos no questionário em datas anteriores.
+            </td>
+        </tr>
+        <tr> 
+            <td>Objetivos do Teste</td>
+            <td>
+                Verificar as respostas inseridas pelo usuário anteriormente.
+            </td>
+        </tr>
+        <tr> 
+            <td>Passos</td>
+            <td>
+                1. Acessar o navegador</br>
+                2. Informar o endereço do site</br>
+                3. Fazer login</br>
+                4. Selecionar a opção: Exibir histórico de questionários
+            </td>
+        </tr>
+        <tr> 
+            <td>Critérios de Êxito</td>
+            <td>
+                O usuário poderá ver os questionários de datas anteriores.</br>
+                Ao clicar em um questionário específico, o usuário poderá visualizar as respostas inseridas.
+            </td>
+        </tr>
+    </tbody>
+</table>
 
-Comente sobre as ferramentas de testes utilizadas.
- 
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
-> - [Criação e Geração de Planos de Teste de Software](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
+<table>
+    <thead>
+        <tr> 
+            <th>Caso do Teste</th>
+            <th>CT-04 - Visualizar dados de consumo de carbono</th>
+        </tr>
+    </thead>
+       <tbody>
+        <tr> 
+            <td>Requisitos Associados</td>
+            <td>
+                RRF-05 O site deve permitir que o usuário visualize seus dados de consumo de carbono, calculados a partir do uso do questionário.
+            </td>
+        </tr>
+        <tr> 
+            <td>Objetivos do Teste</td>
+            <td>
+                Verificar a quantidade de carbono emitida pelo usuário.
+            </td>
+        </tr>
+        <tr> 
+            <td>Passos</td>
+            <td>
+                1. Acessar o navegador</br>
+                2. Informar o endereço do site</br>
+                3. Fazer login</br>
+                4. Após ter respondido o questionário pelo menos uma vez, o resultado de consumo será mostrado na tela inicial.
+            </td>
+        </tr>
+        <tr> 
+            <td>Critérios de Êxito</td>
+            <td>
+                O valor de consumo deverá aparecer na tela inicial.
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr> 
+            <th>Caso do Teste</th>
+            <th>CT-06 - Enviar sugestão de atividades</th>
+        </tr>
+    </thead>
+       <tbody>
+        <tr> 
+            <td>Requisitos Associados</td>
+            <td>
+                RF-06 - O site deve permitir que o usuário submeta sugestões de ações para redução do consumo de carbono.
+            </td>
+        </tr>
+        <tr> 
+            <td>Objetivos do Teste</td>
+            <td>
+                Verificar as repostas inseridas pelo usuário anteriormente.
+            </td>
+        </tr>
+        <tr> 
+            <td>Passos</td>
+            <td>
+                1. Acessar o navegador</br>
+                2. Informar o endereço do site</br>
+                3. Fazer login</br>
+                4. Selecionar a opção: Enviar sugestão de atividade para a aplicação.
+            </td>
+        </tr>
+        <tr> 
+            <td>Critérios de Êxito</td>
+            <td>
+                O usuário podera preencher um formláriio de envio de sugestão.
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr> 
+            <th>Caso do Teste</th>
+            <th>CT-07 - Comparar emissão com a média dos usuários</th>
+        </tr>
+    </thead>
+       <tbody>
+        <tr> 
+            <td>Requisitos Associados</td>
+            <td>
+                RF-07 - O site deve permitir que o usuário compare os seus dados de consumo de carbono e porcentagem de redução/aumento de consumo com a média de todos os usuários da aplicação.
+            </td>
+        </tr>
+        <tr> 
+            <td>Objetivos do Teste</td>
+            <td>
+                Comparar o consumo do usuário.
+            </td>
+        </tr>
+        <tr> 
+            <td>Passos</td>
+            <td>
+                1. Acessar o navegador</br>
+                2. Informar o endereço do site</br>
+                3. Fazer login</br>
+                4. Após ter respondido o questionário pelo menos uma vez, o comparatibo deverá aparecer na tela inicial
+            </td>
+        </tr>
+        <tr> 
+            <td>Critérios de Êxito</td>
+            <td>
+                O valor de de consumo médio dos usuários deverá aparecer na tela inicial.
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr> 
+            <th>Caso do Teste</th>
+            <th>CT-08 - Convidar usuários</th>
+        </tr>
+    </thead>
+       <tbody>
+        <tr> 
+            <td>Requisitos Associados</td>
+            <td>
+                RF-10 - O site deve permitir que o usuário envie convites para amigos utilizarem a aplicação.
+            </td>
+        </tr>
+        <tr> 
+            <td>Objetivos do Teste</td>
+            <td>
+                Testar o envio de convites.
+            </td>
+        </tr>
+        <tr> 
+            <td>Passos</td>
+            <td>
+                1. Acessar o navegador</br>
+                2. Informar o endereço do site</br>
+                3. Fazer login</br>
+                4. Selecionar a opção: Convidar um amigo
+            </td>
+        </tr>
+        <tr> 
+            <td>Critérios de Êxito</td>
+            <td>
+                Um convite para se juntar ao site deverá ser enviado ao e-mail digitado.
+            </td>
+        </tr>
+    </tbody>
+</table>
