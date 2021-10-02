@@ -48,30 +48,32 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| O site deve apresentar, quando no primeiro login do usuário, um questionário sobre o estilo de vida do usuário, incluindo perguntas sobre hábitos de alimentação, transporte, consumo energético, renda, entre outros. | ALTA | 
+|RF-002| O site deve apresentar na página inicial uma checklist personalizada de ações diárias para redução da pegada de carbono do usuário, baseada no questionário inicial.   | ALTA |
+|RF-003| O site deve permitir que o usuário visualize seus dados inseridos na checklist em datas anteriores.   | ALTA |
+|RF-004| O site deve permitir que o usuário refaça o questionário sobre estilo de vida sempre que achar necessário.  | MÉDIA |
+|RF-005| O site deve permitir que o usuário visualize seus dados de consumo de carbono, calculados a partir do uso da checklist, em forma de gráficos.  | MÉDIA |
+|RF-006| O site deve permitir que o usuário submeta sugestões de ações para redução do consumo de carbono.   | MÉDIA |
+|RF-007| O site deve permitir que o usuário compare os seus dados de consumo de carbono e porcentagem de redução/aumento de consumo com a média de todos os usuários da aplicação.   | BAIXA |
+|RF-008| O site deve permitir que o usuário adicione outros usuários, criando comunidades específicas que podem ter metas em grupo ou serem usadas como parâmetro de comparação de consumo de carbono e porcentagem de redução/aumento do consumo.   | BAIXA |
+|RF-009| O site deve oferecer uma funcionalidade de filtro de pesquisa que separa as ações sugeridas por: categoria; quantidade de carbono emitida; peso para o usuário.  | MÉDIA |
+|RF-010| O site deve permitir que o usuário envie convites para amigos utilizarem a aplicação.   | BAIXA |
 
 ### Requisitos não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|ID     | Descrição do Requisito  |
+|-------|-------------------------|
+|RNF-001| O software deve ser implementado como uma aplicação Web.|
+|RNF-002| Deve ter uma interface fácil e intuitiva para qualquer pessoa conseguir acessar e encontrar. |
+|RNF-003| O software deve estar disponível pelo menos 99% das 24hs por dia, 7 dias por semana (24x7), com a possibilidade de paradas pré-programadas para manutenção no mesmo. |
+|RNF-004| O software deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge) |
+|RNF-005| Se deve avisar ao usuário caso o software esteja offline e ter uma estimativa de volta. |
+|RNF-006| O software deverá apresentar uma interface gráfica no idioma Português – Brasil. |
+|RNF-007| O software deverá ter um meio(e-mail) para que os usuários enviem pedidos de ajuda ou de melhorias, entre outras mensagens.|
+|RNF-008| Todas as informações deverão ser armazenadas em um banco de dados |
+|RNF-009| O software deverá possuir um bom tempo de resposta para mostrar os dados para o usuário de maneira precisa e eficiente. |
+|RNF-010| O software deverá ser fácil de manter e atualizar assim reduzindo o tempo das manutenções e a sua dificuldade. |
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
 ## Restrições
 
@@ -79,11 +81,11 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|RE-01| O projeto deverá ser entregue no final do semestre letivo, não podendo extrapolar a data de 05/12/2021. |
+|RE-02| A equipe não pode subcontratar o desenvolvimento do trabalho.       |
+|RE-03| O projeto não pode ser compartilhado com terceiros para fins lucrativos. |
 
 
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
 
 > **Links Úteis**:
 > - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
