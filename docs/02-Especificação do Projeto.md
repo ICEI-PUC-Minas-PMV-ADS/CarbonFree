@@ -55,9 +55,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-005| O site deve permitir que o usuário visualize seus dados de consumo de carbono, calculados a partir do uso da checklist, em forma de gráficos.  | MÉDIA |
 |RF-006| O site deve permitir que o usuário submeta sugestões de ações para redução do consumo de carbono.   | MÉDIA |
 |RF-007| O site deve permitir que o usuário compare os seus dados de consumo de carbono e porcentagem de redução/aumento de consumo com a média de todos os usuários da aplicação.   | BAIXA |
-|RF-008| O site deve permitir que o usuário adicione outros usuários, criando comunidades específicas que podem ter metas em grupo ou serem usadas como parâmetro de comparação de consumo de carbono e porcentagem de redução/aumento do consumo.   | BAIXA |
-|RF-009| O site deve oferecer uma funcionalidade de filtro de pesquisa que separa as ações sugeridas por: categoria; quantidade de carbono emitida; peso para o usuário.  | MÉDIA |
-|RF-010| O site deve permitir que o usuário envie convites para amigos utilizarem a aplicação.   | BAIXA |
+|RF-008| O site deve permitir que o usuário envie convites para amigos utilizarem a aplicação.   | BAIXA |
 
 ### Requisitos não Funcionais
 
