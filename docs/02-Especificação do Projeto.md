@@ -35,7 +35,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-007| O site deve permitir que o usuário compare os seus dados de consumo de carbono e porcentagem de redução/aumento de consumo com a média de todos os usuários da aplicação.   | BAIXA |
 |RF-008| O site deve permitir que o usuário envie convites para amigos utilizarem a aplicação.   | BAIXA |
 
-### Requisitos não Funcionais
+### Requisitos não Funcionais02-Especificação
 
 |ID     | Descrição do Requisito  |
 |-------|-------------------------|
@@ -64,11 +64,4 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos. 
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Casos de Uso”.
-
-> **Links Úteis**:
-> - [Criando Casos de Uso](https://www.ibm.com/docs/pt-br/elm/6.0?topic=requirements-creating-use-cases)
-> - [Como Criar Diagrama de Caso de Uso: Tutorial Passo a Passo](https://gitmind.com/pt/fazer-diagrama-de-caso-uso.html/)
-> - [Lucidchart](https://www.lucidchart.com/)
-> - [Astah](https://astah.net/)
-> - [Diagrams](https://app.diagrams.net/)
+![](img/diagramaCasoUso.png)
