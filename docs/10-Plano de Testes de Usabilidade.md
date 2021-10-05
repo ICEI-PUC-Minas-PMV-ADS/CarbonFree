@@ -86,7 +86,7 @@
         <tr> 
             <td>Critérios de Êxito</td>
             <td>
-                O carregamento das páginas não deve ultrapassar XYZ segundos.
+                O carregamento das páginas não deve ultrapassar 5 segundos.
             </td>
         </tr>
     </tbody>
