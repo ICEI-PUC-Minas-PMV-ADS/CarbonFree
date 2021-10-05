@@ -245,7 +245,7 @@
         <tr> 
             <td>Requisitos Associados</td>
             <td>
-                RF-10 - O site deve permitir que o usuário envie convites para amigos utilizarem a aplicação.
+                RF-08 - O site deve permitir que o usuário envie convites para amigos utilizarem a aplicação.
             </td>
         </tr>
         <tr> 
