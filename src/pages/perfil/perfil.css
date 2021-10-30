@@ -1,0 +1,90 @@
+.transparency-white {
+  background-color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.bg-color {
+  background-color: rgba(140, 218, 88, 0.6) !important;
+}
+
+.carbon-logo {
+  width: 250px;
+}
+
+.background-image {
+  background-image: url(/assets/img/perguntas.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.nav-tabs {
+  background-color: rgba(140, 218, 88, 0.6);
+  border: unset;
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-link:hover {
+  color: rgb(52, 131, 0);
+  background-color: white;
+  border-color: black;
+}
+
+.perfil {
+    margin: 20px;
+}
+
+.perfil-box { 
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 70vh;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.perfil-descricao p {
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 15px;
+    min-height: 200px;
+}
+
+.perfil-descricao span {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 20px;
+}
+
+.perfil-dados-usuario {
+    display: flex;
+}
+
+.perfil-dados-usuario div {
+    padding-right: 50px;
+}
+
+.perfil-dados-usuario div > div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.perfil-dados-usuario div button {
+    background-color: transparent;
+    border: none;
+}
+
+.perfil-foto-usuario {
+    border-radius: 80%;
+    width: 140px;
+    height: 140px;
+    border: 1px solid;
+}
+
+@media screen and (max-width: 850px) {
+
+}
