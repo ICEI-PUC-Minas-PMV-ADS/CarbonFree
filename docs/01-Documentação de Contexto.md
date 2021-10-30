@@ -6,11 +6,6 @@ O termo pegada de carbono foi empregado pela primeira vez pelos pesquisadores Wi
 ## Problema
 O problema que buscamos resolver é: como podemos auxiliar na diminuição da emissão de carbono no meio ambiente, através do desenvolvimento de uma aplicação tecnológica para computador e smartphones?
 
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
-
 ## Objetivos
 
 Esse projeto tem como objetivo geral, calcular qual a quantidade de dióxido de carbono emitida por um indivíduo, baseando-se nas suas atividades diárias, por exemplo, o transporte utilizado no seu trajeto até algum lugar, o tipo de alimento consumido, vestimenta utilizada, o gasto de energia elétrica, e, sugerir ao usuário formas de reduzir a sua emissão de dióxido de carbono na atmosfera de uma maneira simples, prática e intuitiva.
@@ -24,9 +19,6 @@ Esse projeto tem como objetivo geral, calcular qual a quantidade de dióxido de 
 usuário;
 * Mostrar um comparativo da redução da emissão de carbono do usuário.
  
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
-
 ## Justificativa
 
 Conforme relatórios do Painel Intergovernamental sobre Mudanças Climáticas, todas
@@ -49,9 +41,6 @@ ambiental e uma responsabilidade ética. A utilização de aplicativos pode ser 
 aliada às estratégias educacionais contribuindo para o entendimento de cada pessoa como um
 sujeito participativo em um processo de mudança a longo prazo.
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
-
 ## Público-Alvo
 
 No ano de 2019, foi realizada pelo Serviço de proteção ao Crédito, 3 uma pesquisa com
@@ -68,11 +57,3 @@ Assim, o público alvo são as pessoas preocupadas com a adoção de práticas
 sustentáveis, mas que ainda possuem dificuldades para verificar o seu impacto e as maneiras
 de contribuir com o meio ambiente. A aplicação visa facilitar esse acompanhamento pelo
 usuário.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
