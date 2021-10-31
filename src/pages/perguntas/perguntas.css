@@ -21,7 +21,7 @@ img {
 }
 
 .background-image {
-  background-image: url(../../perguntas.jpg);
+  background-image: url(../../assets/perguntas.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
