@@ -68,14 +68,14 @@
             <td>
                 1. Acessar o navegador</br>
                 2. Informar o endereço do site</br>
-                3. Fazer login
+                3. Fazer login</br>
+                4. Selecionar a opção atividades sugeridas
             </td>
         </tr>
         <tr> 
             <td>Critérios de Êxito</td>
             <td>
-                Após realizar o login, o usuário é redirecionado para página principal, que deve conter as atividades sugeridas.</br>
-                O usuário deve conseguir marcar a atividade como concluída após realizá-la.
+                Após realizar o login, o usuário deve acessar a opção atividades sugeridas e visualizá-las.
             </td>
         </tr>
     </tbody>
@@ -162,7 +162,7 @@
     <thead>
         <tr> 
             <th>Caso do Teste</th>
-            <th>CT-06 - Enviar sugestão de atividades</th>
+            <th>CT-05 - Enviar sugestão de atividades</th>
         </tr>
     </thead>
        <tbody>
@@ -190,7 +190,7 @@
         <tr> 
             <td>Critérios de Êxito</td>
             <td>
-                O usuário podera preencher um formláriio de envio de sugestão.
+                O usuário podera preencher um formulário de envio de sugestão.
             </td>
         </tr>
     </tbody>
@@ -200,7 +200,7 @@
     <thead>
         <tr> 
             <th>Caso do Teste</th>
-            <th>CT-07 - Comparar emissão com a média dos usuários</th>
+            <th>CT-06 - Comparar emissão com a média dos usuários</th>
         </tr>
     </thead>
        <tbody>
@@ -238,7 +238,7 @@
     <thead>
         <tr> 
             <th>Caso do Teste</th>
-            <th>CT-08 - Convidar usuários</th>
+            <th>CT-07 - Convidar usuários</th>
         </tr>
     </thead>
        <tbody>
