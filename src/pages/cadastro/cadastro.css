@@ -1,171 +1,94 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Spartan", sans-serif;
-}
-
-html,
 body {
-  height: 100%;
-}
-
-body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   background: url("../../assets/login.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover;;
 }
 
-.container {
-  height: 100%;
+.cadastro {
   display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  padding: 40px 0px;
+  padding: 40px 0;
   background-color: rgba(128, 128, 0, 0.5);
 }
 
-.col-1 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 500px;
+.cadastro-info p { 
+  color: #ffffff;
+  margin-top: 20px;
+  text-align: justify;
+}
+
+.cadastro-box {
+  width: auto;
   height: auto;
-}
-
-.col-1 img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 20px;
-}
-
-.col-1 p {
-  text-align: center;
-  font-size: 18px;
-  color: white;
-  margin: 0 20px;
-}
-
-.col-2 {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  height: 100%;
-}
-
-.box-login {
-  width: 450px;
-  height: auto;
-  padding: 20px;
+  padding: 20px 40px;
   display: flex;
   flex-direction: column;
   gap: 20px;
   background-color: rgba(240, 240, 240, 0.6);
   border-radius: 3%;
+  color: rgb(68, 68, 2);
 }
 
-.login,
+.cadastro-box h4 { 
+  font-size: 30px;
+}
+
+.email,
 .senha,
 .nome,
 .dtnasc,
 .nivel {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 5px;
 }
 
-.login input,
+.email input,
 .senha input,
 .nome input,
 .dtnasc input,
 .nivel select {
-  width: 80%;
-  height: 30px;
+  height: 35px;
 }
 
-.nivel {
-  text-align: center;
-}
-
-.login-button-container {
+.cadastro-button-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.login-button-container button {
-  width: 25%;
-  height: 30px;
+.cadastro-button-container a {
+  color: rgb(68, 68, 2);
+}
+
+.cadastro-button-container a:hover {
+  filter: grayscale(100%);
+}
+
+.cadastro-button-container button {
+  width: 100px;
   background-color: transparent;
-  border-color: rgba(128, 128, 0, 1);
+  border-color: rgba(128, 128, 0);
+  color: rgb(68, 68, 2);
 }
 
-.login-button-container button:hover {
+.cadastro-button-container button:hover {
   background-color: rgba(128, 128, 0, 1);
   color: white;
   transition: all 0.4s ease-out;
 }
 
-.link-cadastro {
-  text-align: center;
-}
-
-.link-cadastro a {
-  color: black;
-}
-
-.link-cadastro a:hover {
-  color: white;
-}
-
-/* 979 onde o column wrap acontece */
-@media screen and (max-width: 979px) {
-  .row {
-    gap: 40px;
+@media screen and (max-width: 768px) {
+  .cadastro { 
+    flex-direction: column;
   }
 
-  .col-1 {
-    width: auto;
-    height: auto;
-    justify-content: flex-end;
-  }
-
-  .col-1 p {
-    font-size: 18px;
-  }
-
-  .col-2 {
-    justify-content: flex-start;
-    height: unset;
-  }
-
-  .row {
-    height: 100%;
-    align-items: unset;
-    padding: 0px;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .col-1 {
-    padding: 10px 0px 0px 0px;
-  }
-
-  .col-2 {
-    width: 100%;
-  }
-
-  .box-login {
-    border-radius: unset;
-    width: 100%;
+  .cadastro-info img {
+    width: 250px;
   }
 }
