@@ -92,25 +92,25 @@
       <div class="tab-content" id="myTabContent">
         <div
           class="tab-pane fade show active"
-          id="home"
+          id="energia"
           role="tabpanel"
-          aria-labelledby="home-tab"
+          aria-labelledby="energia-tab"
         >
           ...
         </div>
         <div
           class="tab-pane fade"
-          id="profile"
+          id="transporte"
           role="tabpanel"
-          aria-labelledby="profile-tab"
+          aria-labelledby="transporte-tab"
         >
           ...
         </div>
         <div
           class="tab-pane fade"
-          id="contact"
+          id="lixo"
           role="tabpanel"
-          aria-labelledby="contact-tab"
+          aria-labelledby="lixo-tab"
         >
           ...
         </div>
@@ -120,36 +120,36 @@
           <div class="nav nav-tabs" id="nav-tab" role="tablist">
             <button
               class="nav-link active"
-              id="nav-home-tab"
+              id="nav-energia-tab"
               data-bs-toggle="tab"
-              data-bs-target="#nav-home"
+              data-bs-target="#nav-energia"
               type="button"
               role="tab"
-              aria-controls="nav-home"
+              aria-controls="nav-energia"
               aria-selected="true"
             >
               Energia
             </button>
             <button
               class="nav-link"
-              id="nav-profile-tab"
+              id="nav-transporte-tab"
               data-bs-toggle="tab"
-              data-bs-target="#nav-profile"
+              data-bs-target="#nav-transporte"
               type="button"
               role="tab"
-              aria-controls="nav-profile"
+              aria-controls="nav-transporte"
               aria-selected="false"
             >
               Transporte
             </button>
             <button
               class="nav-link"
-              id="nav-contact-tab"
+              id="nav-lixo-tab"
               data-bs-toggle="tab"
-              data-bs-target="#nav-contact"
+              data-bs-target="#nav-lixo"
               type="button"
               role="tab"
-              aria-controls="nav-contact"
+              aria-controls="nav-lixo"
               aria-selected="false"
             >
               Lixo
@@ -158,9 +158,9 @@
           <div class="tab-content" id="nav-tabContent">
             <div
               class="tab-pane fade show active card transparency-white"
-              id="nav-home"
+              id="nav-energia"
               role="tabpanel"
-              aria-labelledby="nav-home-tab"
+              aria-labelledby="nav-energia-tab"
             >
               <form class="card-body">
                 <div class="mb-3">
@@ -169,61 +169,56 @@
                   </p>
                 </div>
                 <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label">
+                  <label for="input-tv" class="form-label">
                     Insira o tempo (em horas) que você assiste TV por
                     dia:</label
                   >
                   <input
-                    type="email"
+                    type="number"
                     class="form-control"
-                    id="exampleInputEmail1"
-                    aria-describedby="emailHelp"
+                    id="input-tv"
                   />
                 </div>
                 <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label">
+                  <label for="input-celular" class="form-label">
                     Insira o tempo (em horas) que você utiliza o celular por
                     dia:
                   </label>
                   <input
-                    type="email"
+                    type="number"
                     class="form-control"
-                    id="exampleInputEmail1"
-                    aria-describedby="emailHelp"
+                    id="input-celular"
                   />
                 </div>
                 <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label">
+                  <label for="input-banho" class="form-label">
                     Insira o tempo (em minutos) do seu banho diário:
                   </label>
                   <input
-                    type="email"
+                    type="number"
                     class="form-control"
-                    id="exampleInputEmail1"
-                    aria-describedby="emailHelp"
+                    id="input-banho"
                   />
                 </div>
                 <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label">
+                  <label for="input-game" class="form-label">
                     Insira o tempo (em horas) que você joga videogame por dia:
                   </label>
                   <input
-                    type="email"
+                    type="number"
                     class="form-control"
-                    id="exampleInputEmail1"
-                    aria-describedby="emailHelp"
+                    id="input-game"
                   />
                 </div>
                 <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label">
+                  <label for="input-computador" class="form-label">
                     Insira o tempo (em horas) que você utiliza o computador por
                     dia:
                   </label>
                   <input
-                    type="email"
+                    type="number"
                     class="form-control"
-                    id="exampleInputEmail1"
-                    aria-describedby="emailHelp"
+                    id="input-computador"
                   />
                 </div>
                 <button class="btn btn-primary">Calcular</button>
@@ -231,9 +226,9 @@
             </div>
             <div
               class="tab-pane fade show card transparency-white"
-              id="nav-profile"
+              id="nav-transporte"
               role="tabpanel"
-              aria-labelledby="nav-profile-tab"
+              aria-labelledby="nav-transporte-tab"
             >
               <form class="card-body">
                 <img class="offset-1 construcao" src="../../assets/construcao.png" />
@@ -242,9 +237,9 @@
             </div>
             <div
               class="tab-pane fade show card transparency-white"
-              id="nav-contact"
+              id="nav-lixo"
               role="tabpanel"
-              aria-labelledby="nav-contact-tab"
+              aria-labelledby="nav-lixo-tab"
             >
               <form class="card-body">
                 <img class="offset-1 construcao" src="../../assets/construcao.png" />
