@@ -1,90 +1,88 @@
-.transparency-white {
-  background-color: rgba(255, 255, 255, 0.8) !important;
-}
-
-.bg-color {
-  background-color: rgba(140, 218, 88, 0.6) !important;
-}
-
-.carbon-logo {
-  width: 250px;
-}
-
-.background-image {
-  background-image: url(/assets/img/perguntas.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 100vh;
-}
-
-.nav-tabs {
-  background-color: rgba(140, 218, 88, 0.6);
-  border: unset;
-}
-
-.nav-link {
-  color: white;
-}
-
-.nav-link:hover {
-  color: rgb(52, 131, 0);
-  background-color: white;
-  border-color: black;
-}
-
 .perfil {
-    margin: 20px;
+  padding: 20px;
 }
 
-.perfil-box { 
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    min-height: 70vh;
-    border: 2px solid;
-    border-radius: 10px;
-    padding: 20px;
+.perfil h3 {
+  font-size: 45px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 30px;
 }
 
-.perfil-descricao p {
-    border: 1px solid;
-    border-radius: 5px;
-    padding: 15px;
-    min-height: 200px;
+.perfil-box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 70vh;
+  border: 2px solid;
+  border-radius: 10px;
+  padding: 20px;
 }
 
-.perfil-descricao span {
-    position: absolute;
-    bottom: 0;
-    margin-bottom: 20px;
+.perfil-box h2 {
+  font-size: 35px;
+  text-transform: uppercase;
+  color: #465439;
+  margin-bottom: 25px;
+}
+
+.perfil-descricao div textarea {
+  min-height: 200px;
+}
+
+.perfil-descricao div span {
+  background-color: transparent;
+}
+
+.perfil-descricao > span {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 20px;
 }
 
 .perfil-dados-usuario {
-    display: flex;
+  display: flex;
 }
-
 .perfil-dados-usuario div {
-    padding-right: 50px;
+  padding-right: 50px;
 }
 
-.perfil-dados-usuario div > div{
-    display: flex;
-    justify-content: space-between;
+.perfil-dados-usuario div > div {
+  display: flex;
+  justify-content: space-between;
 }
 
 .perfil-dados-usuario div button {
-    background-color: transparent;
-    border: none;
+  background-color: transparent;
+  border: none;
+}
+
+.perfil-dados-usuario div > span {
+  background-color: transparent;
 }
 
 .perfil-foto-usuario {
-    border-radius: 80%;
-    width: 140px;
-    height: 140px;
-    border: 1px solid;
+  border-radius: 80%;
+  width: 140px;
+  height: 140px;
+  border: 1px solid;
 }
 
 @media screen and (max-width: 850px) {
+  .perfil-dados-usuario { 
+    flex-direction: column;
+  }
 
+  .perfil-dados-usuario div:nth-child(2) { 
+    order: 1;
+    margin-top: 20px;
+  }
+
+  .perfil-descricao {
+    margin-bottom: 30px;
+  }
+
+  .perfil-descricao > span {
+    margin-bottom: 10px;
+  }
 }

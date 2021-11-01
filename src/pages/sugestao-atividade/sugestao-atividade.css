@@ -42,21 +42,6 @@ img {
   gap: 20px;
 }
 
-.nav-tabs {
-  background-color: rgba(140, 218, 88, 0.6);
-  border: unset;
-}
-
-.nav-link {
-  color: white;
-}
-
-.nav-link:hover {
-  color: rgb(52, 131, 0);
-  background-color: white;
-  border-color: black;
-}
-
 .card-body .btn {
   background-color: rgba(52, 131, 0, 0.5);
   color: white;
