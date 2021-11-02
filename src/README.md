@@ -1,5 +1,7 @@
 # Instruções de utilização
 
+Acessar o link: https://carbonfree.herokuapp.com/src/pages/home/home.html
+
 ## Instalação do Site
 
 O site em HTML/CSS/JS é um projeto estático, logo pode ser utilizado tanto em servidores...
