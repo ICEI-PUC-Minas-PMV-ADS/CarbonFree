@@ -11,16 +11,17 @@ O diagrama apresenta o estudo do fluxo de interação do usuário com o sistema 
 
 ## Wireframes
 
-![Exemplo de Wireframe](img/wireframe1.png)
-<br>
-![Exemplo de Wireframe](img/wireframe2.png)
-<br>
-![Exemplo de Wireframe](img/wireframe3.png)
-<br>
-![Exemplo de Wireframe](img/wireframe4.png)
-<br>
-![Exemplo de Wireframe](img/wireframe5.png)
-<br>
+![primeira pagina](https://user-images.githubusercontent.com/81633095/143928560-3fd7c256-911e-4acd-b6bd-1e96676192ec.jpg)
 
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
- 
+![cadastro](https://user-images.githubusercontent.com/81633095/143928730-34ae047f-781a-4eb8-b10e-028fc4ea9612.jpg)
+
+![login](https://user-images.githubusercontent.com/81633095/143928758-1392fdb2-7d58-464b-a1df-f1b170e4f40c.jpg)
+
+![perfil](https://user-images.githubusercontent.com/81633095/143928848-507de5bf-b986-4d05-aed9-90915c95dc59.jpg)
+
+![calculo](https://user-images.githubusercontent.com/81633095/143928887-4fe69a4b-f711-4d4a-ad71-4410518cb3e0.jpg)
+
+![historico](https://user-images.githubusercontent.com/81633095/143928917-cb7d8e00-1b2e-4433-ad29-5dd1112710d0.jpg)
+
+![sugestoes (1)](https://user-images.githubusercontent.com/81633095/143928950-fec0b641-7bee-40fa-a4f7-ab3496528706.jpg)
+
