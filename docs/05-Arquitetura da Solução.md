@@ -22,9 +22,8 @@ O Esquema Relacional corresponde à representação dos dados em tabelas juntame
 
 ## Tecnologias Utilizadas
 
-Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
-
-Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
+As tecnologias utilizadas para desenvolvimento da aplicação foram as seguintes: Node.Js, mySQL,
+Handlebars, Express.JS, HTML, CSS, Javascript.
 
 ## Hospedagem
 
