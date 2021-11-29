@@ -17,7 +17,7 @@ O Modelo ER representa através de um diagrama como as entidades (coisas, objeto
 ## Esquema Relacional
 
 O Esquema Relacional corresponde à representação dos dados em tabelas juntamente com as restrições de integridade e chave primária.
- 
+
 ![](img/esquemRelacional.png)
 
 ## Tecnologias Utilizadas
@@ -27,6 +27,6 @@ Handlebars, Express.JS, HTML, CSS, Javascript.
 
 ## Hospedagem
 
-O site utiliza a plataforma do Heroku como ambiente de hospedagem do site do projeto. O site é mantido no ambiente da URL: 
+O site utiliza a plataforma do Heroku como ambiente de hospedagem do site do projeto. O site é mantido no ambiente da URL:
 
-https://carbonfree-personal.herokuapp.com/
+https://carbonfree.herokuapp.com/

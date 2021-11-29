@@ -2,23 +2,23 @@
 
 Nesta seção são apresentadas as telas desenvolvidas para cada uma das funcionalidades do sistema. O respectivo endereço (URL) e outras orientações de acesso vão ser apresentadas em sequência.
 
-QUESTIONÁRIO INICIAL (RF 01-  RF 04)
+QUESTIONÁRIO INICIAL (RF 01- RF 04)
 
-O site deve apresentar um questionário sobre o estilo de vida do usuário, incluindo perguntas sobre hábitos de alimentação, transporte, consumo energético, renda, entre outros.  O site deve permitir que o usuário refaça o questionário sobre estilo de vida sempre que achar necessário. Os dados vão ser armazenados no mySQL.
+O site deve apresentar um questionário sobre o estilo de vida do usuário, incluindo perguntas sobre hábitos de alimentação, transporte, consumo energético, renda, entre outros. O site deve permitir que o usuário refaça o questionário sobre estilo de vida sempre que achar necessário. Os dados vão ser armazenados no mySQL.
 
 ![calculo](https://user-images.githubusercontent.com/81633095/143941401-8f31cd61-2e15-4bb0-ad3c-e414f6823a71.jpg)
 
 Requisitos atendidos
 
-- RF 01
- 
-- RF 04
+-   RF 01
+
+-   RF 04
 
 Instruções de acesso:
 
 1. Acessar o navegador
 
-2. Informar o endereço do site: https://carbonfree-personal.herokuapp.com/
+2. Informar o endereço do site: https://carbonfree.herokuapp.com/
 
 3. Criar uma conta
 
@@ -32,13 +32,13 @@ O site deve apresentar na página inicial uma lista de verificação personaliza
 
 Requisitos atendidos
 
-- RF 02
+-   RF 02
 
 Instruções de acesso:
 
 1. Acessar o navegador
 
-2. Informar o endereço do site: https://carbonfree-personal.herokuapp.com/
+2. Informar o endereço do site: https://carbonfree.herokuapp.com/
 
 3. Fazer login na sua conta.
 
@@ -52,13 +52,13 @@ O site deve permitir que o usuário visualize seus dados inseridos na checklist 
 
 Requisitos atendidos
 
-- RF 03
+-   RF 03
 
 Instruções de acesso:
 
 1. Acessar o navegador
 
-2. Informar o endereço do site: https://carbonfree-personal.herokuapp.com/
+2. Informar o endereço do site: https://carbonfree.herokuapp.com/
 
 3. Fazer login na sua conta.
 
