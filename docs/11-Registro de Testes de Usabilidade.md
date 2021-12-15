@@ -61,10 +61,6 @@ Conforme relatórios do Lighthouse, disponível no DevTools do Google Chrome, to
 
 ![](img/testes/usabilidade/velocidade/performance-sugestao-atividade.png)
 
-Após realizar os testes de usabilidade, obtém-se um relatório a partir das análises realizadas. O Registro de Testes de Usabilidade é um relatório que contém as evidências dos testes e relatos dos usuários participantes, baseado no Plano de Testes de Usabilidade desenvolvido para os casos de uso desta etapa.
+No documento a seguir se encontra o relatório com as perguntas aplicadas aos usuários, no teste de usabilidade.
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Registro de Testes de Usabilidade”.
-
-> **Links Úteis**:
->
-> - [Ferramentas de Testes de Usabilidade](https://www.usability.gov/how-to-and-tools/resources/templates.html)
+https://docs.google.com/viewer?url=https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2021-2-e2-proj-int-t4-carbonfree/blob/main/docs/pdf/Relatorio_teste_usabilidade.pdf

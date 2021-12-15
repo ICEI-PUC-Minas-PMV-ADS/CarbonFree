@@ -131,13 +131,13 @@
         <tr> 
             <td>Requisitos Associados</td>
             <td>
-                RRF-05 O site deve permitir que o usuário visualize seus dados de consumo de carbono, calculados a partir do uso do questionário.
+                RF-05 O site deve permitir que o usuário visualize o seu consumo médio de carbono, calculados a partir do uso do questionário.
             </td>
         </tr>
         <tr> 
             <td>Objetivos do Teste</td>
             <td>
-                Verificar a quantidade de carbono emitida pelo usuário.
+                Verificar a quantidade média de carbono emitida pelo usuário.
             </td>
         </tr>
         <tr> 
@@ -146,13 +146,13 @@
                 1. Acessar o navegador</br>
                 2. Informar o endereço do site</br>
                 3. Fazer login</br>
-                4. Após ter respondido o questionário pelo menos uma vez, o resultado de consumo será mostrado na tela inicial.
+                4. Após ter respondido o questionário pelo menos uma vez, o resultado médio de consumo será mostrado no perfil do usuário.
             </td>
         </tr>
         <tr> 
             <td>Critérios de Êxito</td>
             <td>
-                O valor de consumo deverá aparecer na tela inicial.
+                O valor médio de consumo deverá aparecer no perfil do usuário.
             </td>
         </tr>
     </tbody>
@@ -222,13 +222,13 @@
                 1. Acessar o navegador</br>
                 2. Informar o endereço do site</br>
                 3. Fazer login</br>
-                4. Após ter respondido o questionário pelo menos uma vez, o comparatibo deverá aparecer na tela inicial
+                4. Após ter respondido o questionário pelo menos uma vez, o comparativo deverá aparecer na tela do questionário.
             </td>
         </tr>
         <tr> 
             <td>Critérios de Êxito</td>
             <td>
-                O valor de de consumo médio dos usuários deverá aparecer na tela inicial.
+                O valor de de consumo médio dos usuários deverá aparecer na tela do questionário.
             </td>
         </tr>
     </tbody>
