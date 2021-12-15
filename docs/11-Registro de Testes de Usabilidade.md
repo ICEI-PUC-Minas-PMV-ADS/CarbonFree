@@ -63,4 +63,4 @@ Conforme relatórios do Lighthouse, disponível no DevTools do Google Chrome, to
 
 No documento a seguir se encontra o relatório com as perguntas aplicadas aos usuários, no teste de usabilidade.
 
-![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2021-2-e2-proj-int-t4-carbonfree/blob/main/docs/pdf/Relatorio_teste_usabilidade.pdf)
+![Relatório de usabilidade](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2021-2-e2-proj-int-t4-carbonfree/blob/main/docs/pdf/Relatorio_teste_usabilidade.pdf)
